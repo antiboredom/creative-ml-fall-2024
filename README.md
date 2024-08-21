@@ -27,11 +27,9 @@ Readings are listed on the day they are assigned, not due. All readings that are
 
 #### Assignment: Embodiment (due Sepetember 19th)
 
-**Option 1:** Use a machine learning model that tracks the body to create a project that monitors, surveils, or enforces a behavior
-
-**Option 2:** Create an interface that uses the body.
-
-In either option, you'll be making a system that responds to the human body in some way.
+- **Option 1:** Use a machine learning model that tracks the body to create a project that monitors, surveils, or enforces a behavior
+- **Option 2:** Create an interface that uses the body.
+- In either option, you'll be making a system that responds to the human body in some way.
 
 ---
 
@@ -106,7 +104,7 @@ In either option, you'll be making a system that responds to the human body in s
 
 #### Assignment: Create a classifier (due November 7th)
 
-Train your own image or text classifier using data that you collect yourself.
+- Train your own image or text classifier using data that you collect yourself.
 
 #### Readings
 
@@ -135,9 +133,8 @@ Train your own image or text classifier using data that you collect yourself.
 
 #### Assignment: Create a Fake (due December 12th)
 
-**Option 1:** Use machine learning to create a series of fakes or forgeries. These could be fake people, fake events, alternate realities, and so on.
-
-**Option 2:** Elaborate or polish a previous project you made in the class.
+- **Option 1:** Use machine learning to create a series of fakes or forgeries. These could be fake people, fake events, alternate realities, and so on.
+- **Option 2:** Elaborate or polish a previous project you made in the class.
 
 #### Readings:
 
