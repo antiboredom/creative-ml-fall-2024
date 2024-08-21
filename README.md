@@ -1,6 +1,6 @@
 # Creative Applications of Machine Learning
 
-**Instructor:** [Sam Lavigne](https://lav.io) | [splavigne@gmail.com](mailto:splavigne@gmail.com)  
+**Instructor:** [Sam Lavigne](https://lav.io)  
 **Time:** Thursdays 7pm to 8:40pm  
 **Office Hours:** By appointment
 
