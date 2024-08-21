@@ -1,0 +1,4 @@
+.DS_Store
+*.llamafile
+jsconfig.json
+.vscode/
