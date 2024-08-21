@@ -60,10 +60,6 @@ In either option, you'll be making a system that responds to the human body in s
 
 - **Embodiment project presentations**
 
-#### Readings
-
-- To come
-
 ---
 
 ### Week 5: Thursday, September 26, 2024
