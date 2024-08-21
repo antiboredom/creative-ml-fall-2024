@@ -104,7 +104,8 @@ Readings are listed on the day they are assigned, not due. All readings that are
 
 #### Assignment: Create a classifier (due November 7th)
 
-- Train your own image or text classifier using data that you collect yourself.
+- **Option 1:** Train your own image or text classifier using data that you collect yourself.
+- **Option 2:** Use an existing classifier to build a project of your choosing.
 
 #### Readings
 
@@ -116,6 +117,7 @@ Readings are listed on the day they are assigned, not due. All readings that are
 
 - Training a model
 - Deploying a model
+- Facial recognition
 
 ---
 
