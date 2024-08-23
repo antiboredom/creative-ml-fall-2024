@@ -14,7 +14,11 @@ Readings are listed on the day they are assigned, not due. All readings that are
 
 ## Schedule
 
-### Week 1: Thursday, August 29, 2024
+### <span style="color:#999">Week 1: Thursday, August 29, 2024 (SKIPPED!)</span>
+
+---
+
+### Week 2: Thursday, September 5, 2024
 
 - Introductions
 - Introduction to machine learning
@@ -33,24 +37,17 @@ Readings are listed on the day they are assigned, not due. All readings that are
 
 ---
 
-### Week 2: Thursday, September 5, 2024
+### Week 3: Thursday, September 12, 2024
 
 - Body tracking
 - Face tracking
 - Hand tracking
+- Intro to the command line
+- Using ml5 outside the browser
 
 #### Readings
 
 - [AI Is a Lot of Work](https://www.theverge.com/features/23764584/ai-artificial-intelligence-data-notation-labor-scale-surge-remotasks-openai-chatbots) by Josh Dzieza
-
----
-
-### Week 3: Thursday, September 12, 2024
-
-- ml5 review
-- Intro to the command line
-- Using ml5 outside the browser
-- Individual meetings
 
 ---
 
