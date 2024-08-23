@@ -169,3 +169,8 @@ Readings are listed on the day they are assigned, not due. All readings that are
 ### Week 15: Thursday, December 12, 2024
 
 - **Final presentations**
+
+## Optional Readings
+
+- [Operational Images](https://www.e-flux.com/journal/59/61130/operational-images/) by Trevor Paglen
+- [Sorting Things Out](https://ar264sweeney.wordpress.com/wp-content/uploads/2015/09/9780262269070_introduction.pdf) by Geoffrey C. Bowker and Susan Leigh Star
