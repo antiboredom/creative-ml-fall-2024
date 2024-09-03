@@ -28,6 +28,7 @@ Readings are listed on the day they are assigned, not due. All readings that are
 #### Readings
 
 - Race After Technology (just the introduction), by Ruha Benjamin
+- Why A.I. Isn’t Going to Make Art, by Ted Chiang
 
 #### Assignment: Embodiment (due Sepetember 19th)
 
@@ -70,15 +71,12 @@ Readings are listed on the day they are assigned, not due. All readings that are
 #### Readings
 
 - [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](https://dl.acm.org/doi/pdf/10.1145/3442188.3445922) by Emily Bender, Timnit Gebru, Angelina McMillan-Major and "Shmargaret Shmitchell"
+- [Language models can only write poetry](https://posts.decontextualize.com/language-models-poetry/) by Allison Parrish
 
 ### Week 6: Thursday, October 3, 2024
 
 - Connecting llamafile to other applications
 - Making your own interface for chat
-
-#### Readings
-
-- [Language models can only write poetry](https://posts.decontextualize.com/language-models-poetry/) by Allison Parrish
 
 ---
 
@@ -171,3 +169,5 @@ Readings are listed on the day they are assigned, not due. All readings that are
 
 - [Operational Images](https://www.e-flux.com/journal/59/61130/operational-images/) by Trevor Paglen
 - [Sorting Things Out](https://ar264sweeney.wordpress.com/wp-content/uploads/2015/09/9780262269070_introduction.pdf) by Geoffrey C. Bowker and Susan Leigh Star
+- [Practical Deep Learning for Coders](https://course.fast.ai/)
+- [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python)
