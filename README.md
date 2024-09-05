@@ -29,6 +29,7 @@ Readings are listed on the day they are assigned, not due. All readings that are
 
 - Race After Technology (just the introduction), by Ruha Benjamin
 - Why A.I. Isn’t Going to Make Art, by Ted Chiang
+- IF NEEDED: review p5.js with [Xin Xin's videos](https://www.youtube.com/playlist?list=PLT233rQkMw761t_nQ_6GkejNT1g3Ew4PU) or [Dan's videos](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA).
 
 #### Assignment: Embodiment (due Sepetember 19th)
 
