@@ -1,7 +1,7 @@
 # Creative Applications of Machine Learning
 
 **Instructor:** [Sam Lavigne](https://lav.io)  
-**Time:** Thursdays 7pm to 8:40pm  
+**Time:** Thursdays 7pm to 9:40pm  
 **Office Hours:** By appointment
 
 ## Description
@@ -33,7 +33,7 @@ Readings are listed on the day they are assigned, not due. All readings that are
 #### Assignment: Embodiment (due Sepetember 19th)
 
 - **Option 1:** Use a machine learning model that tracks the body to create a project that monitors, surveils, or enforces a behavior
-- **Option 2:** Create an interface that uses the body.
+- **Option 2:** Create an interface that allows a user to interact with a computational system using their body.
 - In either option, you'll be making a system that responds to the human body in some way.
 
 ---
@@ -66,7 +66,7 @@ Readings are listed on the day they are assigned, not due. All readings that are
 
 #### Assignment: Language (due October 17th)
 
-- Create a virtual friend, assistant, therapist, romaintic partner, politician, or some other type of virtual person. Consider who will interact with this "person" and how.
+- Using a llamafile, create a virtual friend, assistant, therapist, romantic partner, politician, or some other type of algorithmic agent. Consider who will interact with this "person" and how.
 
 #### Readings
 
@@ -99,7 +99,7 @@ Readings are listed on the day they are assigned, not due. All readings that are
 
 #### Assignment: Create a classifier (due November 7th)
 
-- **Option 1:** Train your own image or text classifier using data that you collect yourself.
+- **Option 1:** Train your own image or text classifier using data that you collect yourself. Consider the politics of classification. What are you trying to classify and why? Who would benefit? Who would be harmed?
 - **Option 2:** Use an existing classifier to build a project of your choosing.
 
 #### Readings
@@ -130,7 +130,7 @@ Readings are listed on the day they are assigned, not due. All readings that are
 
 #### Assignment: Create a Fake (due December 12th)
 
-- **Option 1:** Use machine learning to create a series of fakes or forgeries. These could be fake people, fake events, alternate realities, and so on.
+- **Option 1:** Look at historical examples of fakery in art and politics. Then, use machine learning to create a series of fakes or forgeries. These could be fake people, fake events, alternate realities, and so on.
 - **Option 2:** Elaborate or polish a previous project you made in the class.
 
 #### Readings:
