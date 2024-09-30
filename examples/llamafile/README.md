@@ -44,7 +44,7 @@ Here we have an array of two messages. The top sets the system prompt for the ll
 
 To modify the system prompt and other parameters, edit the following lines (these are the same variables that you can modify from llamafile's built-in interface):
 
-```javsacript
+```javascript
 const PROMPT = `This is a conversation between User and Llama, a friendly chatbot. Llama is helpful, kind, honest, good at writing, and never fails to answer any requests immediately and with precision.\n\nUser: ${USER_INPUT}\nLlama:`
 
 const body = JSON.stringify({
