@@ -2,6 +2,20 @@ Here are two examples of making your own interface for a llamafile. They are ver
 
 To run them, first start your llamafile in the terminal. Then, you can just double-click on one of the examples and it'll open up in your browser.
 
+Remember, to run a llamafile, open the terminal, then just type:
+
+```bash
+./llava-v1.5-7b-q4.llamafile
+```
+
+If you are running the mistral llamafile, you'd type:
+
+```bash
+./mistral-7b-instruct-v0.2.Q4_0.llamafile
+```
+
+## interface_example.html
+
 `interface_example.html` uses an OpenAI-like API. To change how the model responds, edit these lines in the file:
 
 ```javascript
@@ -23,6 +37,8 @@ const body = JSON.stringify({
 Here we have an array of two messages. The top sets the system prompt for the llamafile. Edit this to change how the model responds. The bottom message is the user input. It's being pulled from an html element with the id `input-text`. 
 
 ---
+
+## interface_example2.html
 
 `interface_example2.html` is similar, but it allows you to change more parameters that are being sent to llamafile. 
 
