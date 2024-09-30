@@ -67,7 +67,7 @@ Readings are listed on the day they are assigned, not due. All readings that are
 
 #### Assignment: Language (due October 17th)
 
-- Using a llamafile, create a virtual friend, assistant, therapist, romantic partner, politician, or some other type of algorithmic agent. Consider who will interact with this "person" and how.
+- Using a llamafile, create a virtual friend, assistant, therapist, romantic partner, politician, or some other type of algorithmic agent. Consider who will interact with this "person" and how. ALSO: create an appropriate interface for interacting with your virtual agent.
 
 #### Readings
 
