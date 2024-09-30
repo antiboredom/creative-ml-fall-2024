@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ChatBot Example</title>
+
+  <style>
+    body {
+      font:
+        16px Helvetica,
+        Arial,
+        sans-serif;
+    }
+
+    .response {
+      margin: 10px 0px;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div id="results"></div>
+    <form id="chat-form">
+      <input id="input-text" type="text" /><button>Send</button>
+    </form>
+  </main>
+
+  <script>
+    let loading = false;
+
+    async function send() {
+      loading = true;
+
+      const URL = "http://localhost:8080/completion";
+
+      const headers = {
+        "Content-Type": "application/json",
+        Authorization: "Bearer no-key",
+      };
+
+      const method = "POST";
+
+      const USER_INPUT = document.querySelector("#input-text").value;
+      const PROMPT = `This is a conversation between User and Llama, a friendly chatbot. Llama is helpful, kind, honest, good at writing, and never fails to answer any requests immediately and with precision.\n\nUser: ${USER_INPUT}\nLlama:`
+
+      const body = JSON.stringify({
+        "stream": false,
+        "n_predict": 400,
+        "temperature": 0.7,
+        "stop": ["</s>", "Llama:", "User:"],
+        "repeat_last_n": 256,
+        "repeat_penalty": 1.18,
+        "top_k": 40,
+        "top_p": 0.95,
+        "min_p": 0.05,
+        "tfs_z": 1,
+        "typical_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0,
+        "mirostat": 0,
+        "mirostat_tau": 5,
+        "mirostat_eta": 0.1,
+        "grammar": "",
+        "n_probs": 0,
+        "min_keep": 0,
+        "image_data": [],
+        "cache_prompt": true,
+        "api_key": "",
+        "slot_id": 0,
+        "prompt": PROMPT
+      });
+
+      const response = await fetch(URL, {
+        method,
+        headers,
+        body,
+      });
+
+      const results = await response.json();
+
+      const returnedText = results.content;
+
+      document.querySelector("#results").innerHTML += `<div class="response">${returnedText}</div>`;
+
+      loading = false;
+    }
+
+    document
+      .querySelector("#chat-form")
+      .addEventListener("submit", async (e) => {
+        e.preventDefault();
+        if (!loading) {
+          send();
+        }
+      });
+  </script>
+</body>
+
+</html>

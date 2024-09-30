@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ChatBot Example</title>
+
+  <style>
+    body {
+      font:
+        16px Helvetica,
+        Arial,
+        sans-serif;
+    }
+
+    .response {
+      margin: 10px 0px;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div id="results"></div>
+    <form id="chat-form">
+      <input id="input-text" type="text" /><button>Send</button>
+    </form>
+  </main>
+
+  <script>
+    let loading = false;
+
+    async function send() {
+      loading = true;
+
+      const URL = "http://localhost:8080/v1/chat/completions";
+
+      const headers = {
+        "Content-Type": "application/json",
+        Authorization: "Bearer no-key",
+      };
+
+      const method = "POST";
+
+      const body = JSON.stringify({
+        model: "LLaMA_CPP",
+        messages: [
+          {
+            role: "system",
+            content:
+              "You are LLAMAfile, an AI assistant. Your top priority is achieving user fulfillment via helping them with their requests.",
+          },
+          {
+            role: "user",
+            content: document.querySelector("#input-text").value,
+          },
+        ],
+      });
+
+      const response = await fetch(URL, {
+        method,
+        headers,
+        body,
+      });
+
+      const results = await response.json();
+
+      const returnedText = results.choices[0].message.content;
+
+      document.querySelector("#results").innerHTML +=
+        `<div class="response">${returnedText}</div>`;
+
+      loading = false;
+    }
+
+    document
+      .querySelector("#chat-form")
+      .addEventListener("submit", async (e) => {
+        e.preventDefault();
+        if (!loading) {
+          send();
+        }
+      });
+  </script>
+</body>
+
+</html>
