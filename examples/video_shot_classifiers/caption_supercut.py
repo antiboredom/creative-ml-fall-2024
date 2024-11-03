@@ -7,7 +7,7 @@ from transformers import pipeline
 import re
 
 captioner = pipeline(
-    "image-to-text", model="Salesforce/blip-image-captioning-base", device="cpu"
+    "image-to-text", model="Salesforce/blip-image-captioning-base", device="mps"
 )
 
 

@@ -88,7 +88,7 @@ def make_supercut(
         for s in scenes:
             found = False
             for label in s["labels"]:
-                if search in label["label"].split(", ") and label["score"] >= thresh:
+                if search in label["label"] and label["score"] >= thresh:
                     found = True
             if found:
                 clips.append(video.subclip(s["start"], s["end"]))
